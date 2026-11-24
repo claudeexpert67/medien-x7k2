@@ -3,6 +3,9 @@ VERSION:2.0
 PRODID:-//Jebo//Gewinnspiel//DE
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Jebo Gewinnspiel
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT1H
+X-PUBLISHED-TTL:PT1H
 BEGIN:VTIMEZONE
 TZID:Europe/Berlin
 BEGIN:STANDARD
@@ -21,8 +24,16 @@ TZNAME:CEST
 END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:jebo-gws-0-20261127@jebo
-DTSTAMP:20261124T200000Z
+UID:jebo-gws-ann@jebo
+DTSTAMP:20261124T203500Z
+DTSTART;TZID=Europe/Berlin:20261126T183000
+DTEND;TZID=Europe/Berlin:20261126T184500
+SUMMARY:Gewinnspiel: Ankündigung geht online (automatisch)
+DESCRIPTION:Ankündigung auf Instagram und Facebook, geht automatisch über Metricool raus.
+END:VEVENT
+BEGIN:VEVENT
+UID:jebo-gws-fr1@jebo
+DTSTAMP:20261124T203500Z
 DTSTART;TZID=Europe/Berlin:20261127T090000
 DTEND;TZID=Europe/Berlin:20261127T091500
 SUMMARY:Gewinnspiel: Einstieg + Test-Story posten (Woche 1)
@@ -39,8 +50,16 @@ TRIGGER:PT0M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:jebo-gws-1-20261128@jebo
-DTSTAMP:20261124T200000Z
+UID:jebo-gws-fra1@jebo
+DTSTAMP:20261124T203500Z
+DTSTART;TZID=Europe/Berlin:20261127T210000
+DTEND;TZID=Europe/Berlin:20261127T211000
+SUMMARY:Gewinnspiel: Auflösung Test-Story (automatisch)
+DESCRIPTION:Geht automatisch über Metricool raus.
+END:VEVENT
+BEGIN:VEVENT
+UID:jebo-gws-sa1@jebo
+DTSTAMP:20261124T203500Z
 DTSTART;TZID=Europe/Berlin:20261128T130000
 DTEND;TZID=Europe/Berlin:20261128T131000
 SUMMARY:Gewinnspiel: Countdown-Story posten
@@ -57,8 +76,16 @@ TRIGGER:PT0M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:jebo-gws-2-20261129@jebo
-DTSTAMP:20261124T200000Z
+UID:jebo-gws-so1@jebo
+DTSTAMP:20261124T203500Z
+DTSTART;TZID=Europe/Berlin:20261129T110000
+DTEND;TZID=Europe/Berlin:20261129T110500
+SUMMARY:Gewinnspiel: Quiz-Post 1 geht online (automatisch)
+DESCRIPTION:Geht automatisch über Metricool raus.
+END:VEVENT
+BEGIN:VEVENT
+UID:jebo-gws-sot1@jebo
+DTSTAMP:20261124T203500Z
 DTSTART;TZID=Europe/Berlin:20261129T110500
 DTEND;TZID=Europe/Berlin:20261129T111500
 SUMMARY:Gewinnspiel: Quiz-Post 1 in die Story teilen
@@ -75,12 +102,20 @@ TRIGGER:PT0M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:jebo-gws-3-20261129@jebo
-DTSTAMP:20261124T200000Z
+UID:jebo-gws-so201@jebo
+DTSTAMP:20261124T203500Z
+DTSTART;TZID=Europe/Berlin:20261129T200000
+DTEND;TZID=Europe/Berlin:20261129T201000
+SUMMARY:Gewinnspiel: Story „Noch bis 23:59 Uhr“ (automatisch)
+DESCRIPTION:Geht automatisch über Metricool raus.
+END:VEVENT
+BEGIN:VEVENT
+UID:jebo-gws-so221@jebo
+DTSTAMP:20261124T203500Z
 DTSTART;TZID=Europe/Berlin:20261129T220000
 DTEND;TZID=Europe/Berlin:20261129T221500
 SUMMARY:Gewinnspiel: Story-Markierungen prüfen
-DESCRIPTION:Direktnachrichten durchgehen: Wer hat @jebotravel in der Story markiert? Screenshot machen und in die Tabelle eintragen.
+DESCRIPTION:Direktnachrichten durchgehen: Wer hat @jebotravel in der Story markiert? Bildschirmaufnahme machen und in die Tabelle eintragen.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Gewinnspiel: Story-Markierungen prüfen
@@ -93,12 +128,12 @@ TRIGGER:PT0M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:jebo-gws-4-20261130@jebo
-DTSTAMP:20261124T200000Z
+UID:jebo-gws-mo1@jebo
+DTSTAMP:20261124T203500Z
 DTSTART;TZID=Europe/Berlin:20261130T090000
 DTEND;TZID=Europe/Berlin:20261130T093000
 SUMMARY:Gewinnspiel: Auswertung Frage 1
-DESCRIPTION:Kommentare durchgehen (richtige Antwort + 2 Freunde markiert) und in die Tabelle eintragen. Story-Markierungen von Sonntagnacht ergänzen. Die Auflösung um 18 Uhr geht automatisch raus.
+DESCRIPTION:Kommentare durchgehen (richtige Antwort + 2 Freunde markiert) und in die Tabelle eintragen. Story-Markierungen ergänzen. Die Auflösung um 18 Uhr geht automatisch raus.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Gewinnspiel: Auswertung Frage 1
@@ -111,8 +146,16 @@ TRIGGER:PT0M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:jebo-gws-5-20261204@jebo
-DTSTAMP:20261124T200000Z
+UID:jebo-gws-moa1@jebo
+DTSTAMP:20261124T203500Z
+DTSTART;TZID=Europe/Berlin:20261130T180000
+DTEND;TZID=Europe/Berlin:20261130T181000
+SUMMARY:Gewinnspiel: Auflösung Frage 1 (automatisch)
+DESCRIPTION:Auflösungs-Post geht automatisch über Metricool raus.
+END:VEVENT
+BEGIN:VEVENT
+UID:jebo-gws-fr2@jebo
+DTSTAMP:20261124T203500Z
 DTSTART;TZID=Europe/Berlin:20261204T090000
 DTEND;TZID=Europe/Berlin:20261204T091500
 SUMMARY:Gewinnspiel: Einstieg + Test-Story posten (Woche 2)
@@ -129,8 +172,16 @@ TRIGGER:PT0M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:jebo-gws-6-20261205@jebo
-DTSTAMP:20261124T200000Z
+UID:jebo-gws-fra2@jebo
+DTSTAMP:20261124T203500Z
+DTSTART;TZID=Europe/Berlin:20261204T210000
+DTEND;TZID=Europe/Berlin:20261204T211000
+SUMMARY:Gewinnspiel: Auflösung Test-Story (automatisch)
+DESCRIPTION:Geht automatisch über Metricool raus.
+END:VEVENT
+BEGIN:VEVENT
+UID:jebo-gws-sa2@jebo
+DTSTAMP:20261124T203500Z
 DTSTART;TZID=Europe/Berlin:20261205T130000
 DTEND;TZID=Europe/Berlin:20261205T131000
 SUMMARY:Gewinnspiel: Countdown-Story posten
@@ -147,8 +198,16 @@ TRIGGER:PT0M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:jebo-gws-7-20261206@jebo
-DTSTAMP:20261124T200000Z
+UID:jebo-gws-so2@jebo
+DTSTAMP:20261124T203500Z
+DTSTART;TZID=Europe/Berlin:20261206T110000
+DTEND;TZID=Europe/Berlin:20261206T110500
+SUMMARY:Gewinnspiel: Quiz-Post 2 geht online (automatisch)
+DESCRIPTION:Geht automatisch über Metricool raus.
+END:VEVENT
+BEGIN:VEVENT
+UID:jebo-gws-sot2@jebo
+DTSTAMP:20261124T203500Z
 DTSTART;TZID=Europe/Berlin:20261206T110500
 DTEND;TZID=Europe/Berlin:20261206T111500
 SUMMARY:Gewinnspiel: Quiz-Post 2 in die Story teilen
@@ -165,12 +224,20 @@ TRIGGER:PT0M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:jebo-gws-8-20261206@jebo
-DTSTAMP:20261124T200000Z
+UID:jebo-gws-so202@jebo
+DTSTAMP:20261124T203500Z
+DTSTART;TZID=Europe/Berlin:20261206T200000
+DTEND;TZID=Europe/Berlin:20261206T201000
+SUMMARY:Gewinnspiel: Story „Noch bis 23:59 Uhr“ (automatisch)
+DESCRIPTION:Geht automatisch über Metricool raus.
+END:VEVENT
+BEGIN:VEVENT
+UID:jebo-gws-so222@jebo
+DTSTAMP:20261124T203500Z
 DTSTART;TZID=Europe/Berlin:20261206T220000
 DTEND;TZID=Europe/Berlin:20261206T221500
 SUMMARY:Gewinnspiel: Story-Markierungen prüfen
-DESCRIPTION:Direktnachrichten durchgehen: Wer hat @jebotravel in der Story markiert? Screenshot machen und in die Tabelle eintragen.
+DESCRIPTION:Direktnachrichten durchgehen: Wer hat @jebotravel in der Story markiert? Bildschirmaufnahme machen und in die Tabelle eintragen.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Gewinnspiel: Story-Markierungen prüfen
@@ -183,12 +250,12 @@ TRIGGER:PT0M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:jebo-gws-9-20261207@jebo
-DTSTAMP:20261124T200000Z
+UID:jebo-gws-mo2@jebo
+DTSTAMP:20261124T203500Z
 DTSTART;TZID=Europe/Berlin:20261207T090000
 DTEND;TZID=Europe/Berlin:20261207T093000
 SUMMARY:Gewinnspiel: Auswertung Frage 2
-DESCRIPTION:Kommentare durchgehen (richtige Antwort + 2 Freunde markiert) und in die Tabelle eintragen. Story-Markierungen von Sonntagnacht ergänzen. Die Auflösung um 18 Uhr geht automatisch raus.
+DESCRIPTION:Kommentare durchgehen (richtige Antwort + 2 Freunde markiert) und in die Tabelle eintragen. Story-Markierungen ergänzen. Die Auflösung um 18 Uhr geht automatisch raus.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Gewinnspiel: Auswertung Frage 2
@@ -201,8 +268,16 @@ TRIGGER:PT0M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:jebo-gws-10-20261211@jebo
-DTSTAMP:20261124T200000Z
+UID:jebo-gws-moa2@jebo
+DTSTAMP:20261124T203500Z
+DTSTART;TZID=Europe/Berlin:20261207T180000
+DTEND;TZID=Europe/Berlin:20261207T181000
+SUMMARY:Gewinnspiel: Auflösung Frage 2 (automatisch)
+DESCRIPTION:Auflösungs-Post geht automatisch über Metricool raus.
+END:VEVENT
+BEGIN:VEVENT
+UID:jebo-gws-fr3@jebo
+DTSTAMP:20261124T203500Z
 DTSTART;TZID=Europe/Berlin:20261211T090000
 DTEND;TZID=Europe/Berlin:20261211T091500
 SUMMARY:Gewinnspiel: Einstieg + Test-Story posten (Woche 3)
@@ -219,8 +294,16 @@ TRIGGER:PT0M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:jebo-gws-11-20261212@jebo
-DTSTAMP:20261124T200000Z
+UID:jebo-gws-fra3@jebo
+DTSTAMP:20261124T203500Z
+DTSTART;TZID=Europe/Berlin:20261211T210000
+DTEND;TZID=Europe/Berlin:20261211T211000
+SUMMARY:Gewinnspiel: Auflösung Test-Story (automatisch)
+DESCRIPTION:Geht automatisch über Metricool raus.
+END:VEVENT
+BEGIN:VEVENT
+UID:jebo-gws-sa3@jebo
+DTSTAMP:20261124T203500Z
 DTSTART;TZID=Europe/Berlin:20261212T130000
 DTEND;TZID=Europe/Berlin:20261212T131000
 SUMMARY:Gewinnspiel: Countdown-Story posten
@@ -237,8 +320,16 @@ TRIGGER:PT0M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:jebo-gws-12-20261213@jebo
-DTSTAMP:20261124T200000Z
+UID:jebo-gws-so3@jebo
+DTSTAMP:20261124T203500Z
+DTSTART;TZID=Europe/Berlin:20261213T110000
+DTEND;TZID=Europe/Berlin:20261213T110500
+SUMMARY:Gewinnspiel: Quiz-Post 3 geht online (automatisch)
+DESCRIPTION:Geht automatisch über Metricool raus.
+END:VEVENT
+BEGIN:VEVENT
+UID:jebo-gws-sot3@jebo
+DTSTAMP:20261124T203500Z
 DTSTART;TZID=Europe/Berlin:20261213T110500
 DTEND;TZID=Europe/Berlin:20261213T111500
 SUMMARY:Gewinnspiel: Quiz-Post 3 in die Story teilen
@@ -255,12 +346,20 @@ TRIGGER:PT0M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:jebo-gws-13-20261213@jebo
-DTSTAMP:20261124T200000Z
+UID:jebo-gws-so203@jebo
+DTSTAMP:20261124T203500Z
+DTSTART;TZID=Europe/Berlin:20261213T200000
+DTEND;TZID=Europe/Berlin:20261213T201000
+SUMMARY:Gewinnspiel: Story „Noch bis 23:59 Uhr“ (automatisch)
+DESCRIPTION:Geht automatisch über Metricool raus.
+END:VEVENT
+BEGIN:VEVENT
+UID:jebo-gws-so223@jebo
+DTSTAMP:20261124T203500Z
 DTSTART;TZID=Europe/Berlin:20261213T220000
 DTEND;TZID=Europe/Berlin:20261213T221500
 SUMMARY:Gewinnspiel: Story-Markierungen prüfen
-DESCRIPTION:Direktnachrichten durchgehen: Wer hat @jebotravel in der Story markiert? Screenshot machen und in die Tabelle eintragen.
+DESCRIPTION:Direktnachrichten durchgehen: Wer hat @jebotravel in der Story markiert? Bildschirmaufnahme machen und in die Tabelle eintragen.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Gewinnspiel: Story-Markierungen prüfen
@@ -273,12 +372,12 @@ TRIGGER:PT0M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:jebo-gws-14-20261214@jebo
-DTSTAMP:20261124T200000Z
+UID:jebo-gws-mo3@jebo
+DTSTAMP:20261124T203500Z
 DTSTART;TZID=Europe/Berlin:20261214T090000
 DTEND;TZID=Europe/Berlin:20261214T093000
 SUMMARY:Gewinnspiel: Auswertung Frage 3
-DESCRIPTION:Kommentare durchgehen (richtige Antwort + 2 Freunde markiert) und in die Tabelle eintragen. Story-Markierungen von Sonntagnacht ergänzen. Die Auflösung um 18 Uhr geht automatisch raus.
+DESCRIPTION:Kommentare durchgehen (richtige Antwort + 2 Freunde markiert) und in die Tabelle eintragen. Story-Markierungen ergänzen. Die Auflösung um 18 Uhr geht automatisch raus.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Gewinnspiel: Auswertung Frage 3
@@ -291,8 +390,16 @@ TRIGGER:PT0M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:jebo-gws-15-20261218@jebo
-DTSTAMP:20261124T200000Z
+UID:jebo-gws-moa3@jebo
+DTSTAMP:20261124T203500Z
+DTSTART;TZID=Europe/Berlin:20261214T180000
+DTEND;TZID=Europe/Berlin:20261214T181000
+SUMMARY:Gewinnspiel: Auflösung Frage 3 (automatisch)
+DESCRIPTION:Auflösungs-Post geht automatisch über Metricool raus.
+END:VEVENT
+BEGIN:VEVENT
+UID:jebo-gws-fr4@jebo
+DTSTAMP:20261124T203500Z
 DTSTART;TZID=Europe/Berlin:20261218T090000
 DTEND;TZID=Europe/Berlin:20261218T091500
 SUMMARY:Gewinnspiel: Einstieg + Test-Story posten (Woche 4)
@@ -309,8 +416,16 @@ TRIGGER:PT0M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:jebo-gws-16-20261219@jebo
-DTSTAMP:20261124T200000Z
+UID:jebo-gws-fra4@jebo
+DTSTAMP:20261124T203500Z
+DTSTART;TZID=Europe/Berlin:20261218T210000
+DTEND;TZID=Europe/Berlin:20261218T211000
+SUMMARY:Gewinnspiel: Auflösung Test-Story (automatisch)
+DESCRIPTION:Geht automatisch über Metricool raus.
+END:VEVENT
+BEGIN:VEVENT
+UID:jebo-gws-sa4@jebo
+DTSTAMP:20261124T203500Z
 DTSTART;TZID=Europe/Berlin:20261219T130000
 DTEND;TZID=Europe/Berlin:20261219T131000
 SUMMARY:Gewinnspiel: Countdown-Story posten
@@ -327,8 +442,16 @@ TRIGGER:PT0M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:jebo-gws-17-20261220@jebo
-DTSTAMP:20261124T200000Z
+UID:jebo-gws-so4@jebo
+DTSTAMP:20261124T203500Z
+DTSTART;TZID=Europe/Berlin:20261220T110000
+DTEND;TZID=Europe/Berlin:20261220T110500
+SUMMARY:Gewinnspiel: Quiz-Post 4 geht online (automatisch)
+DESCRIPTION:Geht automatisch über Metricool raus.
+END:VEVENT
+BEGIN:VEVENT
+UID:jebo-gws-sot4@jebo
+DTSTAMP:20261124T203500Z
 DTSTART;TZID=Europe/Berlin:20261220T110500
 DTEND;TZID=Europe/Berlin:20261220T111500
 SUMMARY:Gewinnspiel: Quiz-Post 4 in die Story teilen
@@ -345,12 +468,20 @@ TRIGGER:PT0M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:jebo-gws-18-20261220@jebo
-DTSTAMP:20261124T200000Z
+UID:jebo-gws-so204@jebo
+DTSTAMP:20261124T203500Z
+DTSTART;TZID=Europe/Berlin:20261220T200000
+DTEND;TZID=Europe/Berlin:20261220T201000
+SUMMARY:Gewinnspiel: Story „Noch bis 23:59 Uhr“ (automatisch)
+DESCRIPTION:Geht automatisch über Metricool raus.
+END:VEVENT
+BEGIN:VEVENT
+UID:jebo-gws-so224@jebo
+DTSTAMP:20261124T203500Z
 DTSTART;TZID=Europe/Berlin:20261220T220000
 DTEND;TZID=Europe/Berlin:20261220T221500
 SUMMARY:Gewinnspiel: Story-Markierungen prüfen
-DESCRIPTION:Direktnachrichten durchgehen: Wer hat @jebotravel in der Story markiert? Screenshot machen und in die Tabelle eintragen.
+DESCRIPTION:Direktnachrichten durchgehen: Wer hat @jebotravel in der Story markiert? Bildschirmaufnahme machen und in die Tabelle eintragen.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Gewinnspiel: Story-Markierungen prüfen
@@ -363,12 +494,12 @@ TRIGGER:PT0M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:jebo-gws-19-20261221@jebo
-DTSTAMP:20261124T200000Z
+UID:jebo-gws-mo4@jebo
+DTSTAMP:20261124T203500Z
 DTSTART;TZID=Europe/Berlin:20261221T090000
 DTEND;TZID=Europe/Berlin:20261221T093000
 SUMMARY:Gewinnspiel: Auswertung Frage 4
-DESCRIPTION:Kommentare durchgehen (richtige Antwort + 2 Freunde markiert) und in die Tabelle eintragen. Story-Markierungen von Sonntagnacht ergänzen. Die Auflösung um 18 Uhr geht automatisch raus.
+DESCRIPTION:Kommentare durchgehen (richtige Antwort + 2 Freunde markiert) und in die Tabelle eintragen. Story-Markierungen ergänzen. Die Auflösung um 18 Uhr geht automatisch raus.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Gewinnspiel: Auswertung Frage 4
@@ -379,5 +510,47 @@ ACTION:DISPLAY
 DESCRIPTION:Gewinnspiel: Auswertung Frage 4
 TRIGGER:PT0M
 END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:jebo-gws-moa4@jebo
+DTSTAMP:20261124T203500Z
+DTSTART;TZID=Europe/Berlin:20261221T180000
+DTEND;TZID=Europe/Berlin:20261221T181000
+SUMMARY:Gewinnspiel: Auflösung Frage 4 (automatisch)
+DESCRIPTION:Auflösungs-Post geht automatisch über Metricool raus.
+END:VEVENT
+BEGIN:VEVENT
+UID:jebo-gws-vid@jebo
+DTSTAMP:20261124T203500Z
+DTSTART;VALUE=DATE:20270102
+DTEND;VALUE=DATE:20270103
+SUMMARY:Gewinnspiel: Video-Dreh Auslosung mit Jenny (02. oder 03.01.)
+DESCRIPTION:Auslosung filmen. Tag noch offen: 02. oder 03.01.
+END:VEVENT
+BEGIN:VEVENT
+UID:jebo-gws-gw@jebo
+DTSTAMP:20261124T203500Z
+DTSTART;TZID=Europe/Berlin:20270106T183000
+DTEND;TZID=Europe/Berlin:20270106T190000
+SUMMARY:Gewinnspiel: Bekanntgabe Gewinner (Video)
+DESCRIPTION:Video zur Auslosung online. Gewinner per Direktnachricht von @jebotravel anschreiben.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Gewinnspiel: Bekanntgabe Gewinner (Video)
+TRIGGER:-PT10M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Gewinnspiel: Bekanntgabe Gewinner (Video)
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:jebo-gws-frist@jebo
+DTSTAMP:20261124T203500Z
+DTSTART;VALUE=DATE:20270113
+DTEND;VALUE=DATE:20270114
+SUMMARY:Gewinnspiel: Frist Gewinner-Antwort
+DESCRIPTION:Kommt bis heute keine Antwort, neu auslosen.
 END:VEVENT
 END:VCALENDAR
