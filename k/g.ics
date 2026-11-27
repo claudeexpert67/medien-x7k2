@@ -73,15 +73,15 @@ DTSTAMP:20261124T203500Z
 DTSTART;TZID=Europe/Berlin:20261127T210000
 DTEND;TZID=Europe/Berlin:20261127T211000
 SUMMARY:Gewinnspiel: Auflösung Freitags-Test posten (von Hand)
-DESCRIPTION:Geht automatisch über Metricool raus.
+DESCRIPTION:Auflösungs-Story vom Freitags-Test selbst posten (Bilder im Thread).
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Gewinnspiel: Countdown-Story posten
+DESCRIPTION:Gewinnspiel: Auflösung Freitags-Test posten
 TRIGGER:-PT10M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Gewinnspiel: Countdown-Story posten
+DESCRIPTION:Gewinnspiel: Auflösung Freitags-Test posten
 TRIGGER:PT0M
 END:VALARM
 END:VEVENT
@@ -205,15 +205,15 @@ DTSTAMP:20261124T203500Z
 DTSTART;TZID=Europe/Berlin:20261204T210000
 DTEND;TZID=Europe/Berlin:20261204T211000
 SUMMARY:Gewinnspiel: Auflösung Freitags-Test posten (von Hand)
-DESCRIPTION:Geht automatisch über Metricool raus.
+DESCRIPTION:Auflösungs-Story vom Freitags-Test selbst posten (Bilder im Thread).
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Gewinnspiel: Countdown-Story posten
+DESCRIPTION:Gewinnspiel: Auflösung Freitags-Test posten
 TRIGGER:-PT10M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Gewinnspiel: Countdown-Story posten
+DESCRIPTION:Gewinnspiel: Auflösung Freitags-Test posten
 TRIGGER:PT0M
 END:VALARM
 END:VEVENT
@@ -337,15 +337,15 @@ DTSTAMP:20261124T203500Z
 DTSTART;TZID=Europe/Berlin:20261211T210000
 DTEND;TZID=Europe/Berlin:20261211T211000
 SUMMARY:Gewinnspiel: Auflösung Freitags-Test posten (von Hand)
-DESCRIPTION:Geht automatisch über Metricool raus.
+DESCRIPTION:Auflösungs-Story vom Freitags-Test selbst posten (Bilder im Thread).
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Gewinnspiel: Countdown-Story posten
+DESCRIPTION:Gewinnspiel: Auflösung Freitags-Test posten
 TRIGGER:-PT10M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Gewinnspiel: Countdown-Story posten
+DESCRIPTION:Gewinnspiel: Auflösung Freitags-Test posten
 TRIGGER:PT0M
 END:VALARM
 END:VEVENT
@@ -469,15 +469,15 @@ DTSTAMP:20261124T203500Z
 DTSTART;TZID=Europe/Berlin:20261218T210000
 DTEND;TZID=Europe/Berlin:20261218T211000
 SUMMARY:Gewinnspiel: Auflösung Freitags-Test posten (von Hand)
-DESCRIPTION:Geht automatisch über Metricool raus.
+DESCRIPTION:Auflösungs-Story vom Freitags-Test selbst posten (Bilder im Thread).
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Gewinnspiel: Countdown-Story posten
+DESCRIPTION:Gewinnspiel: Auflösung Freitags-Test posten
 TRIGGER:-PT10M
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Gewinnspiel: Countdown-Story posten
+DESCRIPTION:Gewinnspiel: Auflösung Freitags-Test posten
 TRIGGER:PT0M
 END:VALARM
 END:VEVENT
