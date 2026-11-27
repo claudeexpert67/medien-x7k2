@@ -72,8 +72,18 @@ UID:jebo-gws-fra1@jebo
 DTSTAMP:20261124T203500Z
 DTSTART;TZID=Europe/Berlin:20261127T210000
 DTEND;TZID=Europe/Berlin:20261127T211000
-SUMMARY:Gewinnspiel: Auflösung Test-Story (automatisch)
+SUMMARY:Gewinnspiel: Auflösung Freitags-Test posten (von Hand)
 DESCRIPTION:Geht automatisch über Metricool raus.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Gewinnspiel: Countdown-Story posten
+TRIGGER:-PT10M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Gewinnspiel: Countdown-Story posten
+TRIGGER:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:jebo-gws-sa1@jebo
@@ -194,8 +204,18 @@ UID:jebo-gws-fra2@jebo
 DTSTAMP:20261124T203500Z
 DTSTART;TZID=Europe/Berlin:20261204T210000
 DTEND;TZID=Europe/Berlin:20261204T211000
-SUMMARY:Gewinnspiel: Auflösung Test-Story (automatisch)
+SUMMARY:Gewinnspiel: Auflösung Freitags-Test posten (von Hand)
 DESCRIPTION:Geht automatisch über Metricool raus.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Gewinnspiel: Countdown-Story posten
+TRIGGER:-PT10M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Gewinnspiel: Countdown-Story posten
+TRIGGER:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:jebo-gws-sa2@jebo
@@ -316,8 +336,18 @@ UID:jebo-gws-fra3@jebo
 DTSTAMP:20261124T203500Z
 DTSTART;TZID=Europe/Berlin:20261211T210000
 DTEND;TZID=Europe/Berlin:20261211T211000
-SUMMARY:Gewinnspiel: Auflösung Test-Story (automatisch)
+SUMMARY:Gewinnspiel: Auflösung Freitags-Test posten (von Hand)
 DESCRIPTION:Geht automatisch über Metricool raus.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Gewinnspiel: Countdown-Story posten
+TRIGGER:-PT10M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Gewinnspiel: Countdown-Story posten
+TRIGGER:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:jebo-gws-sa3@jebo
@@ -438,8 +468,18 @@ UID:jebo-gws-fra4@jebo
 DTSTAMP:20261124T203500Z
 DTSTART;TZID=Europe/Berlin:20261218T210000
 DTEND;TZID=Europe/Berlin:20261218T211000
-SUMMARY:Gewinnspiel: Auflösung Test-Story (automatisch)
+SUMMARY:Gewinnspiel: Auflösung Freitags-Test posten (von Hand)
 DESCRIPTION:Geht automatisch über Metricool raus.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Gewinnspiel: Countdown-Story posten
+TRIGGER:-PT10M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Gewinnspiel: Countdown-Story posten
+TRIGGER:PT0M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:jebo-gws-sa4@jebo
